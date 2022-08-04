@@ -48,7 +48,14 @@ pycodestyle models/__init__.py
 
 models/engine/file_storage.py, models/engine/__init__.py, models/__init__.py, models/base_model.py, tests/
 
-## Task 6:
+## Task 6: Console 0.0.1
+
+chmod +x console.py; ./console.py
+
+pycodestyle console.py
+
+### References
+1. [cmd – Create line-oriented command processors](http://pymotw.com/2/cmd/)
 
 ## Commands
 Check code formating
@@ -62,3 +69,4 @@ Run unittest in non-interactive mode
 echo "python3 -m unittest discover tests" | bash
 
 python3 -m unittest discover tests; echo "python3 -m unittest discover tests" | bash
+
